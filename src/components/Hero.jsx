@@ -1,6 +1,6 @@
 import {HERO_CONTENT} from '../constants'
-import profilePic from '../assets/kevinRushProfile.jpg'
-// import profilePic from '../assets/abdul_kadir.jpg'
+// import profilePic from '../assets/kevinRushProfile.jpg'
+import profilePic from '../assets/abdul_kadir.jpg'
 
 const Hero = () => {
   return (
@@ -14,7 +14,7 @@ const Hero = () => {
                     <span className='bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent'>
                         Full Stack Developer
                     </span>
-                    <p className="my-2 max-w-xl py-6 font-light tracking-tighter">
+                    <p className="my-2 max-w-xl text-lg py-6 font-light tracking-tighter">
                         {HERO_CONTENT}
                     </p>
                 </div>
@@ -22,7 +22,7 @@ const Hero = () => {
             <div className="w-full lg:w-1/2 lg:p-8">
                 <div className="flex justify-center">
                     {/* <img className='h-full w-full' src={profilePic} alt="Abdul Kadir" /> */}
-                    <img className='h-full w-full' src={profilePic} alt="Abdul Kadir" />
+                    <img className='h-96 w-96 rounded-full' src={profilePic} alt="Abdul Kadir" />
 
                 </div>
             </div>
